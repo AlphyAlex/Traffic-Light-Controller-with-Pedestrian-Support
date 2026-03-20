@@ -28,17 +28,21 @@ Pedestrian Handling Logic
 * Cleared only after WALK state completes.
 
 Testbench Scenarios
-> Normal Cycle: The FSM cycles through Red, Green, and Yellow without interruptions.
-> Green Phase Request: Demonstrates the system's ability to "shorten" the vehicle green light to serve a pedestrian.
-> Red Phase Request: Demonstrates an immediate transition to the Walk state (after a safety buffer) when the light is already red.
+- Normal Cycle: The FSM cycles through Red, Green, and Yellow without interruptions.
+-  Green Phase Request: Demonstrates the system's ability to "shorten" the vehicle green light to serve a pedestrian.
+-  Red Phase Request: Demonstrates an immediate transition to the Walk state (after a safety buffer) when the light is already red.
+  
+  ![Simulation Waveform](Waveform_traffic_controller.png)
+
+Schematic View
+The schematic provides a hardware-level view of the FSM. It was generated via Vivado highlights:
+- State transition logic
+- Register/flip-flop placement
+- Combinational & sequential logic blocks
+  ![View Full Schematic View](schematic_traffic_controller.pdf)
+
 
 Technical Speciications
-Language: Verilog HDL
-Tool: Xilinx Vivado
-
-
-
-  
-
-
+* Language: Verilog HDL
+* Tool: Xilinx Vivado
 
