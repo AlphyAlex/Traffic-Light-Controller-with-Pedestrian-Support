@@ -1,5 +1,5 @@
 # Traffic-Light-Controller-with-Pedestrian Support
-This project implements a Mealy Finite State Machine (FSM) for a traffic light controller with pedestrian crossing support.
+This project implements a Finite State Machine (FSM) for a traffic light controller with pedestrian crossing support.
 
 The design ensures:
 Proper traffic sequencing (RED → GREEN → YELLOW → RED)
